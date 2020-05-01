@@ -151,39 +151,39 @@ int main()
     std::cout << "Result of ft.add(): " << resultFt << std::endl;
 
     resultFt = ft.substract(21.2f, 5.32f);
-    std::cout <<"Result of ft.substract(): " << resultFt << std::endl;
+    std::cout << "Result of ft.substract(): " << resultFt << std::endl;
 
     resultFt = ft.multiply(313.3f, 412.2f);
-    std::cout <<"Result of ft.multiply(): " << resultFt << std::endl;
+    std::cout << "Result of ft.multiply(): " << resultFt << std::endl;
 
     resultFt = ft.divide(12.3f, 2.3f);
-    std::cout <<"Result of ft.divide(): " << resultFt << std::endl;
+    std::cout << "Result of ft.divide(): " << resultFt << std::endl;
 
 
     auto resultDt = dt.add(213.5, 312.5);
-    std::cout <<"Result of dt.add(): " << resultDt << std::endl;
+    std::cout << "Result of dt.add(): " << resultDt << std::endl;
 
     resultDt = dt.substract(12.2, 6.2);
-    std::cout <<"Result of dt.substract(): " << resultDt << std::endl;
+    std::cout << "Result of dt.substract(): " << resultDt << std::endl;
 
     resultDt = dt.multiply(6, 3);
-    std::cout <<"Result of dt.multiply(): " << resultDt << std::endl;
+    std::cout << "Result of dt.multiply(): " << resultDt << std::endl;
 
     resultDt = dt.divide(10.0, 2.0);
-    std::cout <<"Result of dt.divide(): " << resultDt << std::endl;
+    std::cout << "Result of dt.divide(): " << resultDt << std::endl;
 
 
     auto resultIt = it.add(123, 42);
-    std::cout <<"Result of it.add(): " << resultIt << std::endl;
+    std::cout << "Result of it.add(): " << resultIt << std::endl;
 
     resultIt = it.substract(20, 4);
-    std::cout <<"Result of it.substract(): " << resultIt << std::endl;
+    std::cout << "Result of it.substract(): " << resultIt << std::endl;
 
     resultIt = it.multiply(8, 3);
-    std::cout <<"Result of it.multiply(): " << resultIt << std::endl;
+    std::cout << "Result of it.multiply(): " << resultIt << std::endl;
 
     resultIt = it.divide(20, 0);
-    std::cout <<"Result of it.divide(): " << resultIt << std::endl;
+    std::cout << "Result of it.divide(): " << resultIt << std::endl;
 
 
     std::cout << "good to go!" << std::endl;
