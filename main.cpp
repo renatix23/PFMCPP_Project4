@@ -101,6 +101,10 @@ double DoubleType::multiply(double lhs, double rhs)
 
 double DoubleType::divide(double lhs, double rhs)
 {
+    if (rhs == 0.0)
+    {
+        std::cout << "Warning! You are trying to divide a double type by zero!" << std::endl;
+    }
     return lhs / rhs;
 }
 
